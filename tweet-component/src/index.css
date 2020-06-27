@@ -1,0 +1,48 @@
+*{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.tweet{
+    background-color:white;
+    height: 200px;
+    width: 40%;
+    margin: auto;  
+    border: 0.5px solid black;
+    padding: 2%;
+    display: flex;
+}
+.avatar{
+    height: 100px;
+    background-color: rgb(41, 100, 100);
+    padding: 20px;
+    width: 100px;
+    border-radius: 5px;
+    place-content: center;
+}
+
+.author-time{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.author{
+    padding: 0px 0px 20px 0px;
+    margin-right: 20px;
+}
+.message{
+    padding: 10px 15px 25px 5px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mybtn{
+    background: none;
+    border: none;
+    color: black;
+    padding: 20px;
+}
