@@ -68,6 +68,7 @@ function OthersButton(){
         </button>
     )
 }
+
 function OtherDiv(){
     return(
         <div className="other-div">
