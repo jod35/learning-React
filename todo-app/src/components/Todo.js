@@ -1,9 +1,10 @@
 import React from 'react'
 
-function TodoItem(){
+function TodoItem(props){
+    console.log(props);
     return(
         <div className="todo-item">
-                <p className="item">Eat food</p>
+                <p className="item">{props.item}</p>
                 <input type="checkbox"></input>
                 <hr></hr>
 
