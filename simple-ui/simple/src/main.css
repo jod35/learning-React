@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier;
+}
+
+.heading{
+    background-color: rgb(4, 54, 54);
+    color: white;
+    text-align: center;
+    height: 10vh;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 80%;
+}
+
+.product{
+    background-color: rgb(4, 54, 54);
+    color: white;
+    width: 25%;
+    min-height: 200px;
+    margin: 10px;
+    padding: 20px;
+}
+.order{
+    color: rgb(4, 54, 54);
+    background-color: white;
+    padding: 1.3em;
+}
