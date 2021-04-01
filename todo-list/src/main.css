@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header{
+    padding: 20px;
+    text-align: center;
+}
+.container{
+    width: 50%;
+    margin: auto;
+}
+input[type="text"]{
+    width: 100%;
+    padding: 10px;
+}
+button{
+    padding: 15px;
+    color: white;
+    background-color: dodgerblue;
+    border: none;
+    border-radius: 7px;
+}
+.todos{
+    margin-top: 30px;
+}.task{
+    margin: 5px;
+} 
+.task{
+    padding: 20px;
+    width: 100%;
+    border: 1px solid lightgray;
+}
+.task h4{
+  color: dodgerblue;
+} 
