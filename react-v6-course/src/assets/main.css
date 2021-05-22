@@ -1,0 +1,26 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.pet {
+  width: 25%;
+  height: 150px;
+  background-color: dodgerblue;
+  color: white;
+  border-radius: 7px;
+  margin: 5px;
+  padding: 20px;
+  transition: all 1.2s;
+}
+.pet:hover {
+  background-color: rgb(19, 74, 129);
+}
+.pets {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 50px auto;
+}
+.pets > .pet + .pet {
+  margin: 5px;
+}
